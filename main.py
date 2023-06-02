@@ -16,10 +16,8 @@ style.configure("Tab", focuscolor=style.configure(".")["background"])
 base_frm = Frame(root, relief="flat", borderwidth=10, bg="gray")
 base_frm.pack(fill="both", expand=True)
 
-
 # create db if it doesn't exist
 helpers.create_db()
-
 
 # create the tabs
 tabs = ttk.Notebook(base_frm)
